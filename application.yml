@@ -1,2 +1,6 @@
 app:
   message: Healthcare Config Server is working!
+
+  jwt:
+    secret: ${JWT_SECRET:VGhpc0lzQVNlY3VyZVNlY3JldEtleUZvckpXVDEyMzQ1Njc4OTA=}
+    expiration: 86400000
